@@ -12,6 +12,7 @@ base {
 
 repositories {
     maven { url = "https://maven.fabricmc.net/" }
+    maven { name = "TerraformersMC"; url = "https://maven.terraformersmc.com/releases/" }
     mavenCentral()
 }
 
