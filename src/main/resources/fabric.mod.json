@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "modswitch",
+  "version": "${version}",
+  "name": "ModSwitch",
+  "description": "In-game manager for preparing Fabric mod enable/disable changes for the next launch.",
+  "authors": ["ModSwitch"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.modswitch.ModSwitchClient"],
+    "modmenu": ["dev.modswitch.ModSwitchModMenu"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
